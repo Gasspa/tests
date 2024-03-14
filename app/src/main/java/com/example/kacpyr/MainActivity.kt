@@ -33,8 +33,10 @@ class MainActivity : AppCompatActivity() {
         )
 
         val operationButtons = listOf(
-            binding.button11,  // +
-            binding.button12   // -
+            binding.button11,
+            binding.button12,
+            binding.button13,
+            binding.button14
         )
 
         numberButtons.forEachIndexed { index, button ->
